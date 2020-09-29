@@ -4,8 +4,8 @@
 
 brew update
 
-brew install tmux macvim
-brew cask install wireshark
+brew install tmux macvim 
+
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -15,3 +15,15 @@ compaudit | xargs chmod g-w,o-w
 rm -rf ~/.vim
 git clone --recursive https://github.com/meishaoming/oh-my-vim.git ~/.vim
 # :PluginInstall
+
+# tmux
+curl -fsSL https://raw.githubusercontent.com/meishaoming/blog/master/macos-setup/tmux.conf > ~/.tmux.conf
+
+# squirrel
+brew cask install squirrel
+git clone https://github.com/KyleBing/rime-wubi86-jidian.git ~/rime-temp
+cp -rf ~/rime-temp/* ~/Library/Rime/
+rm -rf ~/rime-temp
+
+# wireshark
+brew cask install wireshark
