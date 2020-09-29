@@ -1,10 +1,11 @@
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/meishaoming/blog/master/macos-setup/macos-setup.sh)"
 
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 brew update
 
-brew install tmux macvim 
+brew install tmux macvim silversearcher-ag
 
 
 # oh-my-zsh
