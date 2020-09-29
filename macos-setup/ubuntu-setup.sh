@@ -9,3 +9,6 @@ git clone --recursive https://github.com/meishaoming/oh-my-vim.git ~/.vim
 
 # tmux
 curl -fsSL https://raw.githubusercontent.com/meishaoming/blog/master/macos-setup/tmux.conf > ~/.tmux.conf
+
+# oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
