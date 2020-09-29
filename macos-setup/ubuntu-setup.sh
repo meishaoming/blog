@@ -13,3 +13,6 @@ curl -fsSL https://raw.githubusercontent.com/meishaoming/blog/master/macos-setup
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# git
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/meishaoming/blog/master/macos-setup/git-config.sh)"
