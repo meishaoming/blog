@@ -25,3 +25,5 @@ rm -rf ~/rime-temp
 
 # wireshark
 brew cask install wireshark
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/meishaoming/blog/master/macos-setup/git-config.sh)"
