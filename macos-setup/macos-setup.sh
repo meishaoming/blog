@@ -27,3 +27,6 @@ rm -rf ~/rime-temp
 brew cask install wireshark
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/meishaoming/blog/master/macos-setup/git-config.sh)"
+
+# adb
+ brew cask install android-platform-tools
