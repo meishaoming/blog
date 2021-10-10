@@ -1,5 +1,9 @@
 # sh -c "$(curl -fsSL https://raw.githubusercontent.com/meishaoming/blog/master/macos-setup/macos-setup.sh)"
 
+# for terminal proxy with ss
+#export http_proxy=http://127.0.0.1:1087
+#export https_proxy=$http_proxy
+
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew update
