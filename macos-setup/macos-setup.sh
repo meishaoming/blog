@@ -4,6 +4,13 @@
 #export http_proxy=http://127.0.0.1:1087
 #export https_proxy=$http_proxy
 
+# for git proxy
+#git config --global http.proxy 'socks5://127.0.0.1:1086'
+#git config --global https.proxy 'socks5://127.0.0.1:1086'
+
+#git config --global --unset http.proxy
+#git config --global --unset https.proxy
+
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew update
@@ -31,7 +38,6 @@ rm -rf ~/rime-temp
 
 # adb
 brew cask install android-platform-tools
-
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
