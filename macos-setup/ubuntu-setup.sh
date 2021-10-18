@@ -1,7 +1,13 @@
 # sh -c "$(curl -fsSL https://raw.githubusercontent.com/meishaoming/blog/master/macos-setup/ubuntu-setup.sh)"
 
-sudo apt-get update
-sudo apt-get install -y vim cscope zsh tmux git silversearcher-ag strace adb libusb-dev net-tools openssh-server libusb-dev
+sudo apt update
+
+sudo apt install -y vim cscope zsh tmux git silversearcher-ag \
+    strace adb libusb-dev net-tools openssh-server libusb-dev \
+    minicom
+
+sudo apt install -y make gcc g++ openssl gawk libncurses-dev \
+    zlib1g-dev libssl-dev python2 flex libffi-dev
 
 # vim
 rm -rf ~/.vim
@@ -16,3 +22,4 @@ curl -fsSL https://raw.githubusercontent.com/meishaoming/blog/master/macos-setup
 
 # git
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/meishaoming/blog/master/macos-setup/git-config.sh)"
+
